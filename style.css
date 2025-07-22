@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4fff1;
+}
+header {
+    background-color: #74a84a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+.slogan {
+    font-style: italic;
+}
+main {
+    padding: 20px;
+}
+.product {
+    background: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+.order-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #74a84a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+form button {
+    background-color: #74a84a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e1f5d6;
+    font-size: 0.9em;
+}
