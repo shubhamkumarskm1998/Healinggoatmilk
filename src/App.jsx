@@ -1,18 +1,20 @@
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import InitiativesSection from './components/InitiativesSection';
-import Footer from './components/Footer';
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Contact from './pages/Contact';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <InitiativesSection />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
