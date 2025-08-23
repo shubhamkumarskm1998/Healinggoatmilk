@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healing Goat Milk - Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healing Goat Milk</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Healing Goat Milk</h1>
-        <p class="slogan">From our Goats to your Home</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section class="intro">
-            <h2>Welcome to Healing Goat Milk Farm</h2>
-            <p>🌿 Fresh goat milk, organic khad, and healthy goats – all from Saharanpur.</p>
-            <p>ताज़ा बकरी का दूध, जैविक खाद और स्वस्थ बकरियाँ – सीधे सहारनपुर से।</p>
-        </section>
-        <section class="benefits">
-            <h3>Why Choose Goat Milk?</h3>
-            <ul>
-                <li>High in calcium and easy to digest</li>
-                <li>Good for skin and bones</li>
-                <li>Direct from farm to home</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>📞 WhatsApp: <a href="https://wa.me/919874125474">9874125474</a> | 📧 Email: <a href="mailto:shuha@gmail.com">shuha@gmail.com</a></p>
-        <p>&copy; 2025 Healing Goat Milk Farm</p>
-    </footer>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Navbar -->
+  <nav class="bg-green-700 text-white px-6 py-4 flex justify-between items-center">
+    <h1 class="font-bold text-xl">Healing Goat Milk</h1>
+    <ul class="flex space-x-6">
+      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="products.html" class="hover:underline">Products</a></li>
+      <li><a href="contact.html" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-green-50 text-center py-16 px-6">
+    <h2 class="text-4xl md:text-6xl font-bold text-green-700">Healing Goat Milk</h2>
+    <p class="mt-4 text-xl md:text-2xl italic text-gray-600">heals everything</p>
+    <p class="mt-6 max-w-2xl mx-auto text-lg">Pure & Organic Goat Milk you can completely trust for good health.</p>
+    <img src="images/goat.jpg" alt="Goat" class="mt-10 mx-auto rounded-2xl shadow-lg w-full max-w-md">
+  </header>
+
+  <!-- About Milk -->
+  <section class="py-16 px-6 bg-white text-center">
+    <div class="max-w-3xl mx-auto">
+      <p class="text-lg leading-relaxed">
+        We deliver Organic Goat Milk directly from farm to your home with <span class="font-semibold">NO middleman</span>. 
+        From Organic Fodder to Milking, the complete process is handled by our experts, ensuring you get the <span class="font-semibold">best milk</span>.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Goats -->
+  <section class="py-16 px-6 bg-green-50">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-green-700 mb-4">About Our Goats & Milk</h2>
+        <p class="text-lg leading-relaxed">
+          We have <span class="font-semibold">Indian Amritsari Beetal</span> breed goats, originated from Punjab, known for high-quality milking. 
+          The milk is tasty, creamy, and similar to cow’s milk. It comes in 100% natural, sustainable packaging, rich in nutrients, easy to digest, lower in fat, and lactose-friendly.
+        </p>
+      </div>
+      <img src="images/farm.jpeg" alt="Farm" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Our Promise -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-green-700 mb-8 text-center">We Guarantee</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="p-6 bg-green-100 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-2">1. Fresh & Nutrient-Rich Milk</h3>
+          <p>Delivered within 5 hours of milking. Raw & unprocessed – No pasteurization means more natural enzymes and probiotics.</p>
+        </div>
+        <div class="p-6 bg-green-100 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-2">2. Ethically Sourced with Care</h3>
+          <p>Baby goats are fed first. No artificial hormones. Goats eat only natural fodder from our farms.</p>
+        </div>
+        <div class="p-6 bg-green-100 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-2">3. Happy, Healthy Goats</h3>
+          <p>Raised in a pollution-free, natural environment. Gentle hand-milking ensures zero stress or discomfort.</p>
+        </div>
+        <div class="p-6 bg-green-100 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold mb-2">4. Fully Trustworthy & Transparent</h3>
+          <p>We control everything from farm to your home. No shortcuts – just pure, honest farming.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ideal For -->
+  <section class="py-16 px-6 bg-green-50 text-center">
+    <h2 class="text-3xl font-bold text-green-700 mb-6">Ideal For</h2>
+    <ul class="space-y-4 text-lg">
+      <li>✔ Health-conscious families</li>
+      <li>✔ People with cow milk sensitivities</li>
+      <li>✔ Anyone who values clean, ethical, and natural dairy</li>
+    </ul>
+  </section>
+
+  <!-- Why Choose Goat Milk -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-green-700 mb-6">Why Choose Goat Milk?</h2>
+      <p class="text-lg mb-6">A nutritious alternative to cow’s milk, especially for those with digestive issues, mild lactose intolerance, or seeking extra nutrients.</p>
+      <ul class="space-y-3 text-lg text-left max-w-xl mx-auto">
+        <li>🥛 Easier to Digest (softer curd, less lactose)</li>
+        <li>🥛 More Nutrients per Sip (higher in vitamins & minerals)</li>
+        <li>🥛 Lower Allergy Risk (different protein structure)</li>
+        <li>🥛 Anti-Inflammatory Benefits (thanks to fatty acids)</li>
+      </ul>
+      <p class="mt-6 text-sm text-gray-600">Read more in this <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10563692/" class="text-green-600 underline">scientific study</a>.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center py-6">
+    <p>&copy; 2025 Healing Goat Milk. All rights reserved.</p>
+  </footer>
 </body>
 </html>
